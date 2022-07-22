@@ -1,5 +1,5 @@
 import java.util.Scanner;
-//BOJ 1001 A-B ¹®Á¦
+//BOJ 1001 A-B 
 public class BOJ_1001 {
 	public static void main(String [] args) {
 		
