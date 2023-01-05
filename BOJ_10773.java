@@ -7,7 +7,7 @@ public class BOJ_10773 {
 		Stack<Integer> stack = new Stack();
 		Scanner sc = new Scanner(System.in);
 		int K = 0;
-		int num;
+		int num = 0;
 		int sum = 0;
 		K = sc.nextInt();
 		for (int i = 0; i < K; i++) {
