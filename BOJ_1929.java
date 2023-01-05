@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class BOJ_1929 {
 	public static void main(String[] args) {
-		final int MAX = 1000000;
+		final int MAX = 1000000; //n과 m 와 최대크기 
 		boolean[] isPrime = new boolean[MAX + 1];
 		isPrime[0] = false; 
 		isPrime[1] = false;
