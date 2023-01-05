@@ -33,7 +33,7 @@ public class BOJ_6588 {
 					System.out.println(n + " = " + startNum + " + " + k);
 					break;
 				} else {
-					System.out.println("Goldbach's conjecture is wrong."); // 이거 안해도 통과가 된다 골드바흐의 추측은 항상다 맞지만 증명을 못했기때문
+					System.out.println("Goldbach's conjecture is wrong."); // 이거 안해도 통과가 된다 골드바흐의 추측은 항상다 맞지만 증명을 못했기때문 실수로 안했는데 통과했음
 				}
 			}
 		}
