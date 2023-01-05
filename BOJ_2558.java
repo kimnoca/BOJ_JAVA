@@ -8,9 +8,8 @@ public class BOJ_2558 {
 		Scanner sc = new Scanner(System.in);
 		a = sc.nextInt();
 		b = sc.nextInt();
-		System.out.println(a+b);
-		
-		
+		System.out.println(a + b);
+
 	}
 
 }
