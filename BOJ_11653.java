@@ -1,5 +1,5 @@
 // BOJ Week1 - 11653 소인수분해 
-// N을 입력받아 N의 모든 소인수분해 과정을 출력
+// N을 입력받아 N의 모든 소인수분해 과정 출력
 
 import java.util.Scanner;
 
