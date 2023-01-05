@@ -5,13 +5,13 @@ public class BOJ_1343 {
 		String input = "";
 		Scanner sc = new Scanner(System.in);
 		input = sc.nextLine();
-		String tmp = "";
-		tmp = input.replaceAll("XXXX", "AAAA");
-		tmp = tmp.replaceAll("XX", "BB");
-		if (tmp.contains("X")) {
+		String ans = "";
+		ans = input.replaceAll("XXXX", "AAAA");
+		ans = ans.replaceAll("XX", "BB");
+		if (ans.contains("X")) {
 			System.out.println("-1");
 		} else {
-			System.out.println(tmp);
+			System.out.println(ans);
 		}
 	}
 }
