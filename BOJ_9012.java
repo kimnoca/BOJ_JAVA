@@ -21,9 +21,9 @@ public class BOJ_9012 {
 				} else if (answer[i].charAt(j) == ')') {
 					num[i] -= 1;
 				}
-				if(num[i] < 0) { //처음에 이 조건문을 걸어주지 않아서 예제 입력 2에서 걸림 num[i]가 음수가 되는순간 정상적인 괄호가 아니게됨
+				if (num[i] < 0) { // 처음에 이 조건문을 걸어주지 않아서 예제 입력 2에서 걸림 num[i]가 음수가 되는순간 정상적인 괄호가 아니게됨
 					answer[i] = "NO";
-					//continue;
+					// continue;
 				}
 			}
 			if (num[i] == 0) {
