@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class BOJ_6588 {
 
 	public static void main(String[] args) {
-		boolean[] isPrime = new boolean[1000001]; //테스트 케이스는 1000000까지의 정수이기 때문에 
+		boolean[] isPrime = new boolean[1000001]; 
 		isPrime[0] = true; 
 		isPrime[1] = true;
 		for (int i = 2; i <= (int) Math.sqrt(1000000); i++) { 

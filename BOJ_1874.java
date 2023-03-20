@@ -12,10 +12,7 @@ public class BOJ_1874 {
 		sb.append("+\n");
 		int index = 2;
 		for (int i = 0; i < n; i++) {
-			
-			// Stack에 Push하는 조건을 항상 비어있을때만 index의 값을 Push 
-			// 숫자를 입력받기 전에 Stack에 Push
-			
+
 			if (stack.empty()) {
 				stack.push(index);
 				index++;
@@ -32,8 +29,7 @@ public class BOJ_1874 {
 				}
 				stack.pop();
 				sb.append("-\n");
-			} 
-			else if (stack.peek() > k) {
+			} else if (stack.peek() > k) {
 				while (k != stack.peek()) {
 					stack.pop();
 					sb.append("-\n");
@@ -44,18 +40,16 @@ public class BOJ_1874 {
 				if (!stack.empty()) {
 					stack.pop();
 					sb.append("-\n");
-				} 
-				else {
+				} else {
 					continue;
 				}
-			} 
-			else if (stack.peek() == k) {
+			} else if (stack.peek() == k) {
 				stack.pop();
 				sb.append("-\n");
 			}
 
 		}
-		// NO 판별
+		// NO 占실븝옙
 		String result = sb.toString();
 		int check = 0;
 		for (int i = 0; i < result.length(); i++) {
@@ -65,8 +59,7 @@ public class BOJ_1874 {
 		}
 		if (check == n) {
 			System.out.println(result);
-		} 
-		else {
+		} else {
 			System.out.println("NO");
 		}
 
